@@ -40,22 +40,39 @@ print(list2)
 
 # tuple is an immutable datatype in python
 
-tuple= ()
-tuple1 = (1,1,1,2,3)
-tuple2 = (5,2,"anas")
-print(tuple)
-print(tuple1)
-print(tuple2)
-print(tuple1.count(1))
-print(tuple1.index(1))
+# tuple= ()
+# tuple1 = (1,1,1,2,3)
+# tuple2 = (5,2,"anas")
+# print(tuple)
+# print(tuple1)
+# print(tuple2)
+# print(tuple1.count(1))
+# print(tuple1.index(1))
 
 # WAP to count the number of zeros in the tuple that is given
-tuple0 = (0,0,0,0,0,0,0,0,0,0,0,0,0)
-print(tuple0.count(0))
+# tuple0 = (0,0,0,0,0,0,0,0,0,0,0,0,0)
+# print(tuple0.count(0))
 
 #WAP to accept marks of six students and display them in a sorted manner 
 
-marksList = []
-marks = input("enter marks ")
-marksList.append(marks)
-print(marksList)
+# marksList = []
+# marks =  int(input("enter marks:"))
+# marksList.append(marks)
+# print(marksList)
+# marks =  int(input("enter marks:"))
+# marksList.append(marks)
+# print(marksList)
+# marks =  int(input("enter marks:"))
+# marksList.append(marks)
+# print(marksList)
+# marks =  int(input("enter marks:"))
+# marksList.append(marks)
+# print(marksList)
+# marks =  int(input("enter marks:"))
+# marksList.append(marks)
+# print(marksList)
+
+#WAP to add all numbers in a list
+sumList = [1,2,3,4]
+sum = sumList[0]+sumList[1]+sumList[2]+sumList[3]
+print(sum)
