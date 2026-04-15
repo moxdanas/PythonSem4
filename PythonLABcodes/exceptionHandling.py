@@ -1,15 +1,15 @@
 #exception handling
 
-# try:
-#     x = int(input("Enter a number: "))
-#     print(10 / x)
-# except :
-#     print("Something went wrong!")
-# finally:
-#     print("finally block executed!")
+try:
+    x = int(input("Enter a number: "))
+    print(10 / x)
+except :
+    print("Something went wrong!")
+finally:
+    print("finally block executed!")
 
-# for i in range(1,11,):
-#     print(i)
+for i in range(1,11,):
+    print(i)
 
 
 # a =330
