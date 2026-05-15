@@ -17,12 +17,13 @@
 
 
 with open("data.txt","r") as file:
-    print(file.read())
+    print(file.readlines())
 
 
 # file.read()       # Reads full file
 # file.readline()  # Reads one line
 # file.readlines() # Reads all lines as list
 
-with open("sample.txt","w") as file:
-    file.write("Python File handling example!")
+# with open("sample3.txt","r") as file:
+#     file.readlines("Python File handling example3!")
+

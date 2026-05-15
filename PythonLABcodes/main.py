@@ -72,7 +72,7 @@ print(list2)
 # marksList.append(marks)
 # print(marksList)
 
-#WAP to add all numbers in a list
+
 sumList = [1,2,3,4]
 sum = sumList[0]+sumList[1]+sumList[2]+sumList[3]
 print(sum)
