@@ -1,0 +1,16 @@
+marks = []
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+marks1 = int(input("Enter marks:"))
+marks.append(marks1)
+
+marks.sort()
+print(marks)
